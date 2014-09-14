@@ -1,0 +1,51 @@
+
+/*====== IE6 PLUS STYLES ======*/
+
+/*====== DEFAULT FONT SIZE ======*/
+body {font-size: 85%;}
+
+/*====== CLEARING RULES ======*/
+.clearfix {height:1%;} 
+
+/*====== BASIC ELEMENTS ======*/
+body {padding: 0;}
+ 
+/*====== HEADER RULES ======*/
+#header {height: 1%; position: relative;}
+ 
+/*====== LAYOUT STYLES ======*/
+
+body {padding-bottom: 40px;}
+
+#outer-wrapper {
+width:expression(((document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.clientWidth : document.body.clientWidth) > 1400 ? "1300px" : (((document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.clientWidth : document.body.clientWidth) < 760 ? "740px" : "auto"));
+    word-wrap: break-word;
+    height: 1%;
+    position: relative;
+    }
+    
+#mainwrap {width: 100%;}
+
+#content {position: relative;}
+
+/*====== TRENCHCOAT ======*/
+#trenchcoat {right: -20px;} /* show to ie6 */
+html>body #trenchcoat {right: 0;} /* show to ie7 plus */
+#trenchcoat {background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='images/trenchcoat.png');}
+
+/*====== CONTENT STYLES ======*/
+
+/*=== TABLE STYLES===*/
+table {font-size: 100%; width: 80%;}   
+
+blockquote p {background-image: url(../images/quote.gif);}/* show to ie6 */
+html>body blockquote p {background-image: url(../images/quote.png);}
+
+/*====== FORM STYLES ======*/
+form p {margin-top: 0;}
+.required {padding: 0; vertical-align: top;}
+
+/*====== NAVIGATION ======*/
+#navigation {word-wrap:break-word;}
+#navigation li a, #navigation li strong {height:1%;}
+    

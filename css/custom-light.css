@@ -1,0 +1,42 @@
+
+/*====== CUSTOM STYLES ======*/
+
+/*====== BASIC ELEMENTS ======*/
+body {color: #000; background: #fff;}
+h1 {border-top: 1px #000 solid;}
+
+ul li, ul ul li, ul ul ul li {background: url(../images/bullet-one_light.gif) no-repeat 0 0.3em;}  
+ul ul li, ul ol ul li, ul ul ul li {background: url(../images/bullet-two_light.gif) no-repeat 0 0.3em;}
+  
+hr {background-color:#000; color:#000;}   
+pre {color: #000;} 
+    
+blockquote {background: url(../images/quote-bottom_light.gif) no-repeat 0 100%;}
+blockquote p {background-color: #f4f4f4; color: #333; border: 1px #999 solid; border-bottom: none;}
+
+a {text-decoration: underline; color: #000; font-weight:bold;}
+a:link {text-decoration: underline; color: #000; font-weight:bold}
+a:visited {text-decoration: underline; color: #666;}
+a:active {text-decoration: underline; color: #000;}
+a:hover, a:focus {text-decoration: none; color: #3300CC;}
+
+/*====== HEADER ======*/
+#logo {background: url(../images/logo-light.gif) no-repeat 0 0;}
+#date {background-color: #f4f4f4; color:#494949;;}
+#outer-wrapper {border: 3px #000 solid; border-left: none; border-right:none;}
+  
+/*====== NAVIGATION ======*/
+#navigation li {border-left: 10px #000 solid;}
+    
+#navigation li a {color: #000; background-image: url(../images/nav-bg_light.gif); background-repeat: no-repeat; background-position: 0 100%;}
+
+#navigation li a:hover, #navigation li a:focus {background: #000; color: #fff;}
+#navigation li strong {background-color: #000; color: #fff;}
+#navigation .section {background: #ccc; color: #000;} 
+    
+/*====== TABLE STYLES ========*/
+th {background: #000; color: #fff;}
+td {background: #fff; border-bottom: 1px #000 solid;}
+       
+/*====== FORM STYLES ======*/
+.required {color: #000;}

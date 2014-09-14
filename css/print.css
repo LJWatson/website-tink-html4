@@ -1,0 +1,16 @@
+
+/* Print Styles */
+
+#navigation, #related, #trenchcoat {display: none !important;}
+
+#header {height: 236px;}
+#header #logo img {left: 0;}
+
+#outer-wrapper {min-width: 600px; max-width: 650px;}
+
+#content, #wrap1, #wrap2, #mainwrap {
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    }
+    

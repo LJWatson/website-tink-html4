@@ -1,0 +1,92 @@
+
+/*====== BASIC STYLES ======*/
+
+body {
+    margin:  0;
+    padding: 0; 
+    font: 14px Helvetica, Arial, Verdana, sans-serif;
+    }
+    
+h1, h2, h3, h4, h5, p, ol, ul, li, table, dl, dt, dd {
+    margin: 1em 20px 0 20px;
+    padding: 0;
+    line-height: 1.25em
+    }
+
+h1, h2, h3, h4, h5 {margin: 0 0 0.5em 0; padding-top: 5px;}
+
+h1 {font-size:1.8em; margin-top: 0; font-weight: bold;}
+h2 {font-size:1.45em; margin-top: 0; margin-bottom: 0.62em;}
+h3 {font-size:1.15em; margin-top: 0.80em; margin-bottom: 0.62em;}
+h4 {font-size:1em; margin-top:0.67em;}
+h5 {font-size:1em; margin-top: 0.5em;}
+
+a.rm:active, a.rm:focus {background-color: #F4F4F4; border-bottom: 1px #999 solid; color: #494949; text-align: center;}
+
+img {
+    vertical-align: bottom;
+    border:0;
+    margin: 0;
+    padding: 0;
+    }
+      
+hr {
+    height: 2px; 
+    margin: 10px 0; 
+    padding:0; 
+    border:0;
+    }
+ 
+ul {list-style-type: none; padding: 0; margin-left: 20px;}
+
+ul ul, ol ul {padding: 0; margin-top: 0; margin-left: 0;}
+
+ul li, ul ul li, ul ul ul li {margin: 0.5em 0 0 0; padding: 0 0 0 20px;}
+
+ul ul ul li {font-style: italic;}
+      
+ol {padding-left:20px;}
+
+ol ol, ul ol {
+    margin-top: 0;
+    padding: 0;
+    }
+   
+ol li, ol ol li, ol ol ol li {
+    margin: 0.3em 0 0 0;
+    padding: 0;
+    background: none;
+    }
+
+ol ol li {list-style-type: lower-latin;}
+
+ol ol ol li {list-style-type: lower-roman;}
+    
+ul ol li {background: none;}
+
+dl {padding: 0;}
+    
+dt {font-weight: bold; font-style: italic; margin: 0.8em 0;}
+    
+dd {margin: 0; padding-left: 40px;}    
+    
+strong {color: #000;}
+
+pre {border-left: 1px #999 solid;} 
+    
+q {font-size: 120%;}
+
+blockquote {
+    font-size: 110%;
+    padding: 0 0 20px 0; 
+    margin: 10px 0;
+    }
+    
+blockquote p {
+	margin: 0; 
+	padding: 0.5em 20px 0.5em 90px;
+	background-image: url(../images/quote.png);
+	background-repeat: no-repeat;
+	background-position: 20px 10px;
+	}
+    	
